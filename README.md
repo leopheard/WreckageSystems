@@ -1,6 +1,6 @@
 <a href="https://kodi.tv">KODI<a> video addon for the <a href="https://65daysofstatic.com/WreckageSystems_FAQ">Wreckage Systems</a> livestream from <a href="https://65daysofstatic.com">65daysofstatic</a>.<br>
 
-<img src="https://github.com/leopheard/WreckageSystems/blob/master/resources/media/65_alt_square.gif?raw=true" width="200" height="200" alt="65dos Wreckage Systems"><img src="https://github.com/leopheard/WreckageSystems/blob/master/resources/media/5.jpg?raw=true"  width="600" height="200" alt="65dos Wreckage Systems"><br>
+<img src="https://github.com/leopheard/WreckageSystems/blob/master/resources/media/65_alt_square.gif?raw=true" width="200" height="200" alt="65dos Wreckage Systems"><img src="https://github.com/leopheard/WreckageSystems/blob/master/resources/media/5.jpg?raw=true"  width="570" height="180" alt="65dos Wreckage Systems"><br>
 
 Welcome to the <a href="https://www.youtube.com/watch?v=eIh706ZRmN0">Wreckage Systems</a> stream from <a href="https://65daysofstatic.com">65LABS</a>. All music you hear is being generated live, endlessly.<br>
 
