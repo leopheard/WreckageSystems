@@ -9,6 +9,9 @@ import sys
 import plugintools
 import xbmc,xbmcaddon
 from addon.common.addon import Addon
+from xbmcswift2 import Plugin, xbmcgui
+from resources.lib import mainaddon
+plugin = Plugin()
 
 addonID = 'plugin.video.wreckagesystems'
 addon = Addon(addonID, sys.argv)
@@ -39,13 +42,25 @@ def main_list(params):
         title="Wreckage Systems",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID+"/",
         thumbnail=icon,
+        folder=True ),
+    plugintools.add_item(
+        #action="",
+        title="Wreckage Systems - livestream [128kbps]",
+        url="https://wreckage-systems.club/radio/8000/radio.mp3",
+        thumbnail="https://github.com/leopheard/WreckageSystems/blob/master/resources/media/65_alt_square.gif?raw=true",
+        folder=True ),
+    plugintools.add_item(
+        #action="",
+        title="Wreckage Systems",
+        url="https://wreckage-systems.club/radio/8000/stream192.mp3",
+        thumbnail="https://github.com/leopheard/WreckageSystems/blob/master/resources/media/65_alt_square.gif?raw=true",
         folder=True )
-        {
+{
             'label': plugin.get_string(30001),
             'path': "https://wreckage-systems.club/radio/8000/radio.mp3",
             'thumbnail': "https://github.com/leopheard/WreckageSystems/blob/master/resources/media/65_alt_square.gif?raw=true",
             'is_playable': True},
-        {
+{
             'label': plugin.get_string(30002),
             'path': "https://wreckage-systems.club/radio/8000/stream192.mp3",
             'thumbnail': "https://github.com/leopheard/WreckageSystems/blob/master/resources/media/65_alt_square.gif?raw=true",
