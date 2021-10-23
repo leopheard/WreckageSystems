@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
+<addon id="plugin.video.wreckagesystems" name="Wreckage Systems" version="1.0.0" provider-name="leopheard">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Wreckage Systems</summary>
+    <description lang="en">Wreckage Systems is a live broadcast of new, endless 65daysofstatic music. It is generated live on a computer and broadcast to the internet. It takes as its source hours of new recordings we made during lockdown (and continue to make), it combines them using software that we wrote, and turns them into music.</description>
+    <platform>all</platform>
+    <language>en</language>
+    <forum></forum>
+    <source>https://github.com/leopheard/WreckageSystems</source>
+    <website>https://65daysofstatic.com/WreckageSystems_FAQ</website>
+    <email>leopheard@gmail.com</email>
+    <license>The MIT License (MIT)</license>
+	<assets>
+			<icon>resources/media/logo.jpg</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+			<screenshot>resources/media/65_alt_square.gif</screenshot>
+			<screenshot>resources/media/1.jpg</screenshot>
+			<screenshot>resources/media/2.png</screenshot>
+			<screenshot>resources/media/3.jpg</screenshot>
+			<screenshot>resources/media/4.jpg</screenshot>
+			<screenshot>resources/media/5.jpg</screenshot>
+		</assets>
+  </extension>
+</addon>
